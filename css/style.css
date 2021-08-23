@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+.container {
+    background: linear-gradient(to bottom,#55066d 0%,#0f1679 100%);
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 100px;
+    display: flex;
+}
+.app-screen{
+    width: 50%;
+    margin: auto;
+    align-items: center;
+    display: flex;
+}
+.content{
+    min-height: 60vh;
+    width: 60%;
+    justify-content: start;
+    flex-flow: row nowrap;
+    color: white;
+}
+.logo{
+    background: linear-gradient(to top,#004688 0%,#641eb4 100%);
+    font-family: 'Pacifico', cursive;
+    text-transform: uppercase;
+    text-align: center;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+    color: darkblue;
+}
+.quiz{
+    display: block;
+    font-size: 85px;
+    text-shadow: -5px 5px 5px rgb(235, 226, 226);
+}
+.app{
+    font-size: 65px;
+    text-shadow: -3px 3px 3px rgb(235, 226, 226);
+}
+.sign-in{
+    font-size: 30px;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+    background: black;
+    color: white;
+    padding-left: 2%;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+}
+.form-item{
+    border: none;
+    outline: none;
+    width: 80%;
+    height: 5vh;
+    background: rgb(0, 0, 0);
+    color: white;
+    border-bottom: 0.5px solid white;
+    margin-bottom: 10%;
+    font-size: 20px;
+}
+.form-title{
+    text-transform: uppercase;
+}
+.submit{
+    margin-left: 10%;
+    width: 40%;
+    font-size: 20px;
+    background: white;
+    color: black;
+    text-transform: uppercase;
+}
+.submition-link{
+    text-decoration: none;
+}
